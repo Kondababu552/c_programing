@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int a,b,c;
+	printf("Enter the 3 values");
+	scanf("%d%d%d",&a,&b,&c);
+	if(a>b)
+	{
+		if(a>c)
+		{
+			printf("A=%d is bigger",a);
+		}
+		else
+		{
+			printf("C=%d is bigger",c);
+		}
+	}
+	else if(b>c)
+	{
+		printf("B=%d is bigger",b);
+	}
+	else
+	{
+		printf("C=%d is bigger",c);
+	}
+	getch();
+}
